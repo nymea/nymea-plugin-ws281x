@@ -48,8 +48,11 @@ git checkout https://github.com/hermanndetz/nymea-plugin-ws281x.git
 ```
 
 The plugin requires the rpi_ws281x library, available at Github 
-[here](https://github.com/jgarff/rpi_ws281x). This is included as
-git submodule with this plugin. Change to the plugin root directory
+[here](https://github.com/jgarff/rpi_ws281x). This library presently
+not available in form of a DEB developer package. It is therefore 
+included as git submodule with this plugin. For more details, see
+the discussion [here](https://github.com/nymea/nymea-plugins/pull/305).
+To obatin the sources, change to the plugin root directory
 and load it as follows:
 
 ```
