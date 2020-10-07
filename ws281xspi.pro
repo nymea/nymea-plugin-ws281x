@@ -1,17 +1,20 @@
 include($$[QT_INSTALL_PREFIX]/include/nymea/plugin.pri)
 
-QMAKE_PRE_LINK = scons -C $$_PRO_FILE_PWD_/rpi_ws281x libws2811.a
 
 QMAKE_CXXFLAGS -= -Werror
 
-LIBS += -L$$_PRO_FILE_PWD_/rpi_ws281x/ -lws2811
 INCLUDEPATH += $$_PRO_FILE_PWD_/rpi_ws281x
 
 SOURCES += \
     integrationpluginws281xspi.cpp \
-    ws281xspicontroller.cpp
+    ws281xspicontroller.cpp \
+    rpi_ws281x/mailbox.c \
+    rpi_ws281x/pwm.c \
+    rpi_ws281x/rpihw.c
 
 HEADERS += \
     integrationpluginws281xspi.h \
-    ws281xspicontroller.h
+    ws281xspicontroller.h \
+    rpi_ws281x/rpihw.h \
+    rpi_ws281x/pwm.h
 

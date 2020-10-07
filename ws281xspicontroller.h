@@ -37,7 +37,7 @@
 #include <QColor>
 #include <QTime>
 
-#include "../../rpi_ws281x/ws2811.h"
+#include "rpi_ws281x/ws2811.h"
 
 #define WS281X_MAX_BRIGHTNESS 255
 #define WS281X_MIN_BRIGHTNESS 0

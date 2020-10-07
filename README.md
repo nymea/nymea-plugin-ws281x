@@ -116,8 +116,7 @@ __Requirements:__
 
 Follow the instructions 
 [here](https://nymea.io/documentation/developers/build-env) to
-setup the build environment. In addition, the scons software
-package is required. It can be installed via `sudo apt install scons`.
+setup the build environment.
 
 __Get the source code:__
 

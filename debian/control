@@ -6,8 +6,7 @@ Build-depends: debhelper (>= 9.0.0),
                libnymea1-dev,
                nymea-dev-tools:native,
                qt5-qmake:native,
-               pkg-config,
-               scons,
+               pkg-config
 Standards-Version: 3.9.3
 
 Package: nymea-plugin-ws281xspi
