@@ -124,7 +124,7 @@ The plugin can be obtained from its Github repository
 [here](https://github.com/hermanndetz/nymea-plugin-ws281x.git):
 
 ```
-git checkout https://github.com/hermanndetz/nymea-plugin-ws281x.git
+git clone https://github.com/hermanndetz/nymea-plugin-ws281x.git
 ```
 
 The plugin requires the rpi_ws281x library, available at Github 
